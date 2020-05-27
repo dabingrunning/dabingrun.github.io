@@ -6,19 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="//dabing.zone">
-  <title>Archives | Dabing&#39;s Blog</title>
+  <title>Android  network security config 具体含义及其作用 | Dabing&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="记录自己生活和工作日常，Android，html5，好记性不如烂笔头。">
-<meta name="keywords" content="Android,html,git,日常,笔记">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dabing&#39;s Blog">
-<meta property="og:url" content="//dabing.zone/archives/index.html">
+  <meta name="description" content="#对于Android 网络安全配置的用途对于网上提到的android：android:networkSecurityConfig 的配置，这个配置的作用到底是什么，需不需配置，不配置带来的问题是什么，我在搜索这些问题的时候，没有收获到明确的答案，只是在抓包是才会提及到这个配置，在这里自己做一下记录和说明，帮助自己以后排查问题更加方便，都是按照自己的理解记录的，如果有什么地方说错了，也请大神能指点一">
+<meta name="keywords" content="Android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android  network security config 具体含义及其作用">
+<meta property="og:url" content="//dabing.zone/android-network-security-config/index.html">
 <meta property="og:site_name" content="Dabing&#39;s Blog">
-<meta property="og:description" content="记录自己生活和工作日常，Android，html5，好记性不如烂笔头。">
+<meta property="og:description" content="#对于Android 网络安全配置的用途对于网上提到的android：android:networkSecurityConfig 的配置，这个配置的作用到底是什么，需不需配置，不配置带来的问题是什么，我在搜索这些问题的时候，没有收获到明确的答案，只是在抓包是才会提及到这个配置，在这里自己做一下记录和说明，帮助自己以后排查问题更加方便，都是按照自己的理解记录的，如果有什么地方说错了，也请大神能指点一">
 <meta property="og:locale" content="CN">
+<meta property="og:updated_time" content="2020-05-27T13:23:06.262Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dabing&#39;s Blog">
-<meta name="twitter:description" content="记录自己生活和工作日常，Android，html5，好记性不如烂笔头。">
+<meta name="twitter:title" content="Android  network security config 具体含义及其作用">
+<meta name="twitter:description" content="#对于Android 网络安全配置的用途对于网上提到的android：android:networkSecurityConfig 的配置，这个配置的作用到底是什么，需不需配置，不配置带来的问题是什么，我在搜索这些问题的时候，没有收获到明确的答案，只是在抓包是才会提及到这个配置，在这里自己做一下记录和说明，帮助自己以后排查问题更加方便，都是按照自己的理解记录的，如果有什么地方说错了，也请大神能指点一">
   
   
     <link rel="icon" href="/assets/img/favicon.ico">
@@ -164,160 +165,67 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="w-android-network-security-config" class="article article-type-w " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/自制力/" class="archive-article-date">
-  	<time datetime="2020-05-27T13:29:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-27</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/自制力/">热爱</a>
+    <h1 class="article-title" itemprop="name">
+      Android  network security config 具体含义及其作用
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">感想 随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/Android-statusbar/" class="archive-article-date">
-  	<time datetime="2020-01-13T06:34:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-13</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/Android-statusbar/">Android 修改状态栏</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Android</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-      
-        </div></section>
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/husiluanxiang/" class="archive-article-date">
-  	<time datetime="2019-10-13T11:10:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-13</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/husiluanxiang/">胡思乱想</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-w">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/android-network-security-config/" class="archive-article-date">
+        
+        <a href="/android-network-security-config/" class="archive-article-date">
   	<time datetime="2019-09-12T06:24:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-12</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/android-network-security-config/">Android  network security config 具体含义及其作用</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#对于Android 网络安全配置的用途<br>对于网上提到的<code>android：android:networkSecurityConfig</code> 的配置，这个配置的作用到底是什么，需不需配置，不配置带来的问题是什么，我在搜索这些问题的时候，没有收获到明确的答案，只是在抓包是才会提及到这个配置，在这里自己做一下记录和说明，帮助自己以后排查问题更加方便，都是按照自己的理解记录的，如果有什么地方说错了，也请大神能指点一下。</p>
+<a id="more"></a>
 
-        <div class="article-info info-on-right">
-          
+<p>在<code>Android 7.0</code> 系统的安全证书信任已从系统级别细化到了应用级别。<br>从 <code>Android 9（API 级别 28）</code>开始，系统默认情况下已停用明文支持。<br>所以对于高版本的手机应当尽量使用https等安全的网络请求，而且googleplay已经要求所有开发者上架的应用改用https请求。 </p>
+<h3 id="首先说下这个配置的使用方式"><a href="#首先说下这个配置的使用方式" class="headerlink" title="首先说下这个配置的使用方式"></a>首先说下这个配置的使用方式</h3><p>对此 Android 在清单文件配置<code>&lt;application&gt;</code>标签中加入了<code>android：android:networkSecurityConfig</code>配置，具体使用方式如下: </p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+    &lt;manifest ... &gt;
+        &lt;application android:networkSecurityConfig=&quot;@xml/network_security_config&quot;
+                        ... &gt;
+            ...
+        &lt;/application&gt;
+    &lt;/manifest&gt;</code></pre><p>同时在res/xml/目录下创建network_security_config.xml文件,文件的内容如下：  </p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+    &lt;network-security-config&gt;
+        &lt;domain-config&gt;
+            &lt;trust-anchors&gt;
+                &lt;certificates src=&quot;user&quot;/&gt;
+            &lt;/trust-anchors&gt;
+        &lt;/domain-config&gt;
+&lt;/network-security-config&gt;</code></pre><p>具体的语法信息请参照<a href="https://developer.android.google.cn/training/articles/security-config" target="_blank" rel="noopener">这个链接</a></p>
+<h3 id="networksecurityconfig的用途"><a href="#networksecurityconfig的用途" class="headerlink" title="networksecurityconfig的用途"></a>networksecurityconfig的用途</h3><blockquote>
+<p>应用可以在<font color="red">一个安全的声明性配置文件</font>中自定义其网络安全设置，而无需修改应用代码。您可以针对特定网域和特定应用配置这些设置。此功能的主要特性如下所示：</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>自定义信任锚：针对应用的安全连接自定义哪些证书授权机构 (CA) 值得信赖。例如，信任特定的自签名证书或限制应用信任的公共 CA 集。</li>
+<li>仅调试替换：在应用中以安全方式调试安全连接，而不会增加安装设备的风险。</li>
+<li>选择停用明文流量：防止应用意外使用明文流量。</li>
+<li>证书固定：限制应用仅安全连接到特定的证书。</li>
+</ul>
+</blockquote>
+<p>上面的说明是摘自官方文档的一段描述，其中红色字体所描述的就是我们上面提到的network_security_config.xml文件。<br>这段话简单的理解其实就是：你可以通过这个文件设置你的应用允许访问那些你认为安全的链接，而且你可以配置你自己所信任的证书，不在你所配置的证书范围内的链接均不能正常访问。</p>
+<h3 id="如果不配置会有什么影响呢"><a href="#如果不配置会有什么影响呢" class="headerlink" title="如果不配置会有什么影响呢"></a>如果不配置会有什么影响呢</h3><p>这个配置主要是针对应用安全的考虑，提高应用的安全性，有助于维护用户的信任和设备完整性。<br>只能说不配置的话，只能让应用更容易劫持。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -329,217 +237,135 @@ var _hmt = _hmt || [];
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://qr.liantu.com/api.php?text=http://dabing.zone/android-network-security-config/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/My-blog-is-coming/" class="archive-article-date">
-  	<time datetime="2019-09-09T13:33:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-09</time>
-</a>
+<nav id="article-nav">
+  
+    <a href="/husiluanxiang/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          胡思乱想
+        
+      </div>
+    </a>
+  
+  
+    <a href="/My-blog-is-coming/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的个人小站</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
+   
+  <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80NjU5MS8yMzEwMQ==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/My-blog-is-coming/">我的个人小站</a>
-    </h1>
+  
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-日记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/Old-Friend-Meeting-in-Jinan/" class="archive-article-date">
-  	<time datetime="2019-09-06T02:42:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-06</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/Old-Friend-Meeting-in-Jinan/">和高中同学的一次聊天</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">-会友 -闲聊</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/focus/" class="archive-article-date">
-  	<time datetime="2019-09-05T08:50:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-05</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/focus/">集中精力，锻炼自己的自控能力</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-感悟</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/githubPage-created-steps/" class="archive-article-date">
-  	<time datetime="2019-09-04T03:36:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/githubPage-created-steps/">githubPage 创建个人博客简单步骤记录</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">githubpage</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/hello-world/" class="archive-article-date">
-  	<time datetime="2019-09-04T02:42:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hello-world/">搞点小玩意</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">android</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -571,8 +397,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
